@@ -15,6 +15,10 @@ Aplikacja do przetwarzania rezerwacji z plików Excel `.xlsx` i zapisywania ich 
 
 ---
 
+## 🚀 Plik konfiguracyjny
+
+Przygotować plik .env (usunąć 'example' z pliku example.env)
+
 ## 🚀 Uruchomienie (Docker Compose)
 
 ```bash
@@ -45,6 +49,7 @@ Pobranie raportu błędów (format JSON).
 ### POST `/auth/login`
 
 Logowanie uytkownika do uzyskania acces tokena (testowy uytkownik jest tworzony podczas uruchamiania aplikacji).
+Access token wymagany jest dla pozostałych endpointów.
 Username: admin
 Password: password
 
